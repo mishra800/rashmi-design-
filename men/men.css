@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+img{
+    width: 100%;
+    display: block;
+}
+#products{
+    min-height: 100vh;
+}
+.product-wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.product-heading{
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 3rem 0;
+    opacity: 0.9;
+}
+.product-item{
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-img{
+    overflow: hidden;
+    position: relative;
+}
+.product-img-slider{
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+.product-img-slider img{
+    min-width: 100%;
+}
+.product-img:hover .product-img-slider{
+    transform: translateX(-100%);
+}
+.product-img button{
+    position: absolute;
+    left: 0;
+    top: 2rem;
+    border: none;
+    color: #fff;
+    background-color: #ababab;
+    font-family: inherit;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.product-img button:hover{
+    background-color: #9e9d9d;
+}
+.product-info{
+    text-align: center;
+    padding: 1.5rem 0;
+}
+.product-name{
+    color: #983f3f;
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 0.6rem;
+}
+.product-price{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.product-icons{
+    margin-top: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-icons span{
+    width: 40px;
+    height: 40px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0.3rem;
+    border: 1px solid #e2e2e2;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.product-icons span:hover{
+    background-color: #9e9d9d;
+    color: #fff;
+}
+.product-grid{
+    margin-bottom: 2rem;
+    display: grid;
+    gap: 2rem;
+}
+
+@media screen and (min-width: 576px){
+    .product-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 992px){
+    .product-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+/* Initial styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, #eee, #ccc, #aaa, #888);
+    padding: 10px 20px;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    max-height: 40px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    transition: transform 0.3s ease;
+    opacity: 1;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links li a {
+    color: #f1ecec;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: 'Dancing Script', cursive; ;
+  }
+  
+  .nav-links li a:hover {
+    color: #f32d0a;
+  }
+  
+  .toggle-btn {
+    display: none;
+  }
+  
+  /* Added styles for mobile */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 50%;
+      background-color: #333;
+      padding: 20px;
+      z-index: 1;
+      transform: translateY(-100%);
+      transition: transform 0.3s ease, opacity 0.3s ease;
+      opacity: 0;
+    }
+  
+    .nav-links.active {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  
+    .toggle-btn {
+      display: block;
+      color: #fff;
+      background-color: transparent;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      animation: pulsate 1.5s ease-in-out infinite;
+    }
+  }
+  
+  /* Animation for pulsating effect */
+  @keyframes pulsate {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+/* Added animation for navigation links slide in */
+@keyframes navLinkSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Added animation for logo */
+.logo img {
+    max-height: 40px;
+    animation: logoScaleAndColor 3s infinite alternate, logoColorChange 5s infinite alternate;
+  }
+  
+  @keyframes logoScaleAndColor {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
+  @keyframes logoColorChange {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+  
+/* Added animation for toggle button rotation */
+.toggle-btn.rotate {
+    transform: rotate(180deg);
+    transition: transform 0.5s ease;
+}
+
+/* Add styles for WhatsApp icon and animation */
+#whatsapp-icon {
+    animation: whatsapp-bounce 1s infinite alternate;
+}
+
+@keyframes whatsapp-bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}

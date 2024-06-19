@@ -1,0 +1,534 @@
+[
+  {
+    "id": 1,
+    "name": "Slim Fitting Designer Wear Shirt",
+    "description": "Stand out in this sleek black and gray slim-fit designer shirt, perfect for any occasion",
+    "price": 4200,
+    "image": "./assets/images/products/1 (1).jpeg",
+    "sizes": ["S", "M", "L"],
+    "category": "men"
+  },
+  {
+    "id": 2,
+    "name": "Slim Fitting Designer Wear Shirt",
+    "description": "Classic cotton shirt with a garment-dyed finish for a soft feel in green colour .",
+    "price": 3500,
+    "image": "./assets/images/products/2.jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "men"
+  },
+  {
+    "id": 3,
+    "name": "Slaying in formals with a slight handwork highlighting ✨",
+    "description": "Sophisticated formals with intricate handwork detailing, guaranteed to impress",
+    "price": 4800,
+    "image": "./assets/images/products/1 (14).jpeg",
+    "sizes": ["M", "L", "XL"],
+    "category": "men"
+  },
+  {
+    "id": 4,
+    "name": "Slaying in formals with a slight handwork highlighting ✨on plane white",
+    "description": 
+"Slay in formal elegance with subtle handcrafted details on plain white",
+    "price": 4200,
+    "image": "./assets/images/products/1 (12).jpeg",
+    "sizes": ["M", "L"],
+    "category": "men"
+  },
+  {
+    "id": 5,
+    "name": "Slay in formal elegance with subtle handcrafted ✨ accents on plain white featuring love bird design ",
+    "description": "Slay in formal elegance with subtle handcrafted ✨ accents on plain white, featuring a customized love bird design",
+    "price": 4300,
+    "image": "./assets/images/products/11 (2).jpeg",
+    "sizes": ["M", "L"],
+    "category": "men"
+  },
+  {
+    "id": 6,
+    "name": "Black Floral Wrap with hand made bird design ",
+    "description": "Black Floral Wrap with Handmade Bird Design",
+    "price": 4800,
+    "image": "./assets/images/products/13 (1).jpeg",
+    "sizes": ["M", "L"],
+    "category": "men"
+  }
+  ,
+  
+  
+  {
+    "id": 7,
+    "name": "Black Floral Wrap with Handmade Eagle  Design",
+    "description": "Black Floral Wrap with hand made Eagle design.",
+    "price": 4800,
+    "image": "./assets/images/products/4566.jpeg",
+    "sizes": ["M", "L"],
+    "category": "men"
+  },
+  {
+    "id": 8,
+    "name": "Black Floral Wrap with hand made design",
+    "description": "Black Floral Wrap with hand made design .",
+    "price": 5500,
+    "image": "./assets/images/products/545644.jpeg",
+    "sizes": ["M", "L"],
+    "category": "men"
+  },
+  {
+    "id": 9,
+    "name": "SLIM FITTING DESIGNER WEAR SHIRT.",
+    "description": "Add some sparkle and shine to your special occasion with this shirt that speaks volumes. Get ready to dazzle and make a lasting impression with this masterpiece!",
+    "price": 4800,
+    "image": "./assets/images/products/now (1).jpeg",
+    "sizes": ["S", "M", "L", "XL"],
+    "category": "men"
+  },
+  {
+    "id": 10,
+    "name": "Redefine Style with Our Designer Slim-Fit Shirt",
+    "description": "A slim-fit designer shirt in black for effortless style.",
+    "price": 5500,
+    "image": "./assets/images/products/now (2).jpeg",
+    "sizes": ["M", "L"],
+    "category": "men"
+  },
+  {
+    "id": 11,
+    "name": "SLIM FITTING DESIGNER WEAR SHIRT With Blue Colour",
+    "description": "Stylish party wear Dhirt Design  for men to make a statement.",
+    "price": 3200,
+    "image": "./assets/images/products/sel25.jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  },
+  {
+    "id": 12,
+    "name": " face tiger 🐯 with multi colour thread 🪡",
+    "description": "Our hand embroidery half face tiger 🐯 with multi color thread 🪡 on customised louts fabric 💙.",
+    "price": 8999,
+    "image": "./assets/images/products/54564 (1).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  },
+  {
+    "id": 13,
+    "name": "Design on Plan Black Color ",
+    "description": "Add some sparkle and shine to your special occasion and let your outfit speak volumes. Get ready to dazzle and make a lasting impression..!",
+    "price": 0.00,
+    "image": "./assets/images/products/54564 (1).png",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  }
+  ,
+  
+  
+  
+  
+  
+  {
+    "id": 14,
+    "name": "SLIM FITTING DESIGNER WEAR SHIRT.",
+    "description": "SLIM FITTING DESIGNER WEAR SHIRT With Blue Color Design  .",
+    "price": 3200,
+    "image": "./assets/images/products/sel (6).jpg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  }
+  ,
+ 
+  
+  {
+    "id": 16,
+    "name": "SLIM FITTING DESIGNER WEAR SHIRT",
+    "description": "SLIM FITTING DESIGNER WEAR SHIRT With Green  Color  Design  ",
+    "price": 3200,
+    "image": "./assets/images/products/sel (15).jpg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  }
+  ,
+  {
+    "id": 17,
+    "name": "SLIM FITTING DESIGNER WEAR SHIRT",
+    "description": "SLIM FITTING DESIGNER WEAR SHIRT With Plan Light Blue.",
+    "price": 0.00,
+    "image": "./assets/images/products/sel (18).jpg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  }
+  ,
+  
+  {
+    "id": 21,
+    "name": " Plan Black colour with Middle Design  ",
+    "description": "Define Your Style with Our Slim-Fit Designer Shirt With Design",
+    "price": 4800,
+    "image": "./assets/images/new/new125.jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  }
+  ,
+  {
+    "id": 22,
+    "name": "Customised  peacocks stride  Design ",
+    "description": "Walking tall with the grace of a peacocks stride,flaunting feathers and embracing the peacock theme",
+    "price": 29000,
+    "image": "./assets/images/new/1 (2).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  }
+  
+  ,
+  {
+    "id": 24,
+    "name": "Customised  Glass Drink  stride  Design",
+    "description": "Stylish party wear shoes for Men  to Glass Drink  stride  Design",
+    "price": 5200,
+    "image": "./assets/images/new/1 (4).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  }
+  ,
+  {
+    "id": 25,
+    "name": "Customised Butterfly Design ",
+    "description": "Customised Butterfly Design on Shoulder",
+    "price": 29000,
+    "image": "./assets/images/new/1 (5).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  },
+  {
+    "id": 26,
+    "name": "PLAN BLACK COLOR WITH MIDDLE DESIGN",
+    "description": "PLAN BLACK COLOR WITH MIDDLE DESIGN on the Hands",
+    "price": 7500,
+    "image": "./assets/images/new/1 (6).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  }
+  ,
+  {
+    "id": 27,
+    "name": "blazers",
+    "description": "PLAN BLACK COLOR WITH MIDDLE DESIGN on the Hands With Shine .",
+    "price": 15000,
+    "image": "./assets/images/new/1 (10).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  }
+  ,
+  {
+    "id": 18,
+    "name": "pLAN Blue COLOR WITH MIDDLE DESIGN on the Hands",
+    "description": "PLAN BLACK COLOR WITH MIDDLE DESIGN on the Hands With Shine ",
+    "price": 9999,
+    "image": "./assets/images/products/sel (21).jpg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  },
+  
+  {
+    "id": 29,
+    "name": "Paithani waistcoat And Pattu Kurtha ",
+    "description": "We crafted a Paithani waistcoat to complement the Pattu Kurtha, paired with a Zari checks Pattu Dhoti, for the pelli koduku ceremony.",
+    "price": 22000,
+    "image": "./assets/images/new/1 (8).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  }
+  ,
+  {
+    "id": 30,
+    "name": "blazers",
+    "description": "Stylish party wear blazers with Design blazers",
+    "price": 18000,
+    "image": "./assets/images/products/1 (15).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  }
+  ,
+  {
+    "id": 31,
+    "name": "Pink Kurta customized",
+    "description": "Stylish party wear Pink Kurta customized",
+    "price": 8000,
+    "image": "./assets/images/new/1 (12).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  }
+  ,
+  {
+    "id": 32,
+    "name": " Black Color Kurta white dots customized",
+    "description": "Stylish Black Color Kurta white dots customized.",
+    "price": 9000,
+    "image": "./assets/images/new/1 (13).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  }
+  ,
+  {
+    "id": 34,
+    "name": "Red Blazer",
+    "description": "Comfortable Customized red Blazer ",
+    "price": 15000,
+    "image": "./assets/images/products/1 (6).jpeg",
+    "sizes": ["8", "9", "10", "11"],
+    "category": "men"
+  },
+  {
+    "id": 35,
+    "name": "Black classic blazer with intricate hand work",
+    "description": "Comfortable Customized  Black classic blazer with intricate hand work",
+    "price": 18000,
+    "image": "./assets/images/products/1 (7).jpeg",
+    "sizes": ["One Size"],
+    "category": "men"
+  },
+  {
+    "id": 36,
+    "name": "Customised  Design ",
+    "description": "Customized design featuring dhoti and kurtas.",
+    "price": 9000,
+    "image": "./assets/images/products/1 (30).jpeg",
+    "sizes": ["One Size"],
+    "category": "men"
+  },
+  {
+    "id": 37,
+    "name": "Customised  Red Color kurtas ",
+    "description": "Stylish Customised Kurtas.",
+    "price": 6000,
+    "image": "./assets/images/products/1 (31).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  },
+  {
+    "id": 38,
+    "name": "Customised  Yellow Color kurtas",
+    "description": "Stylish Customised Kurtas with yellow Color ",
+    "price": 6000,
+    "image": "./assets/images/products/1 (26).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  }
+  ,
+  {
+    "id": 39,
+    "name": "perfect blazer ",
+    "description": "Stylish Customised perfect blazer  with  Color",
+    "price": 17000,
+    "image": "./assets/images/products/1 (28).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  },
+  {
+    "id": 40,
+    "name": "'Eternal Bloom' Capsule, blending time-honoured Indian Savoir-faire with Persian Gara embroidery",
+    "description": "'Eternal Bloom' Capsule, blending time-honoured Indian Savoir-faire with Persian Gara embroidery.",
+    "price": 65000,
+    "image": "./assets/images/products/new.jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  },
+  {
+    "id": 41,
+    "name": "Customised  kurtas",
+    "description": "Stylish  kurtas with different color",
+    "price": 0.00,
+    "image": "./assets/images/products/1 (17).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  }
+  
+  
+  ,
+  {
+    "id": 43,
+    "name": " Rubby red ruffle saree ",
+    "description": "",
+    "price": 0.00,
+    "image": "./assets/images/products/pic (3).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "women"
+  }
+  ,
+  {
+    "id": 44,
+    "name": "Womens corsets Design ",
+    "description": "",
+    "price": 0.00,
+    "image": "./assets/images/products/pic (2).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "women"
+  },
+  {
+    "id": 45,
+    "name": "Lehenga Blue Daisy",
+    "description": "",
+    "price": 0.00,
+    "image": "./assets/images/products/wom (2).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "women"
+  }
+  ,
+  {
+    "id": 46,
+    "name": " cordset  Black and white",
+    "description": "",
+    "price": 0.00,
+    "image": "./assets/images/products/sel (2).jpg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "women"
+  }
+  , {
+    "id": 47,
+    "name": " Black color Frock ",
+    "description": "Hand work on yoke and collar part",
+    "price": 0.00,
+    "image": "./assets/images/products/sel (8).jpg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "women"
+  }
+  , {
+    "id": 48,
+    "name": "Yellow color Frock",
+    "description": "Hand work on yoke part and collar.",
+    "price": 0.00,
+    "image": "./assets/images/products/sel (11).jpg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "women"
+  }
+  ,
+  
+  
+  {
+    "id": 49,
+    "name": "Blue Lehenga Design ",
+    "description": "",
+    "price": 0.00,
+    "image": "./assets/images/products/wom (1).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "women"
+  }
+  ,
+  {
+    "id": 50,
+    "name": "Persian Gara embroidery,",
+    "description": ".",
+    "price": 0.00,
+    "image": "./assets/images/products/women55 (2).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "women"
+  }
+  ,
+  {
+    "id": 51,
+    "name": "Customised Sarres ",
+    "description": "Colours can be customised",
+    "price": 0.00,
+    "image": "./assets/images/rd mens/198 (1).jpeg ",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "women"
+  },
+  {
+    "id": 52,
+    "name": "customised Design sarres",
+    "description": "Colours can be customised",
+    "price": 0.00,
+    "image": "./assets/images/rd mens/198 (2).jpeg ",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "women"
+  },
+  {
+    "id": 53,
+    "name": "Hand Painted Design ",
+    "description": "Our customised haldi outfits hand painting for bride 👰 and groom",
+    "price": 0.00,
+    "image": "./assets/images/rd mens/198 (3).jpeg ",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "women"
+  },
+  {
+    "id": 54,
+    "name": "Hand Painted Kurtha",
+    "description": "Our customised hand painting haldi outfits for bride 👰 and groom",
+    "price": 14500,
+    "image": "./assets/images/rd mens/198 (4).jpeg ",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  },
+  {
+    "id": 55,
+    "name": "Rose Garden Organza",
+    "description": "Organza saree with rose prints, scallop Mehandi green border, and a customizable sleeveless blouse.",
+    "price": 0.00,
+    "image": "./assets/images/rd mens/198 (5).jpeg ",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "women"
+  },
+  {
+    "id": 56,
+    "name": "Red Color Design Lehenga",
+    "description": "",
+    "price": 0.00,
+    "image": "./assets/images/rd mens/198 (6).jpeg ",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "women"
+  },
+  {
+    "id": 57,
+    "name": "Crop top and draped skirt",
+    "description": "",
+    "price": 0.00,
+    "image": "./assets/images/rd mens/198 (7).jpeg ",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "women"
+  }
+  ,
+  {
+    "id": 58,
+    "name": "Customised  Design ",
+    "description": "White Color Customised",
+    "price": 4800,
+    "image": "./assets/images/products/1 (27).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  }
+  ,
+  {
+    "id": 15,
+    "name": "customised Design Blazer",
+    "description": "Elegance never goes out of style ,just like blazer.",
+    "price": 0.00,
+    "image": "./assets/images/products/sel (10).jpg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  }
+  ,
+ 
+  
+  
+   {
+    "id": 19,
+    "name": "Coustmised  kurtas",
+    "description": "Stylish Yellow color Coustmised  kurtas.",
+    "price": 0.00,
+    "image": "./assets/images/products/1 (33).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  }
+  ,
+  {
+    "id": 28,
+    "name": "emple Elegance Sherwani",
+    "description": "Pastel Raw Silk Sherwani with temple-inspired floral motifs, heavy borders, and paired with cotton Lycra Puna pants.",
+    "price": 0.00,
+    "image": "./assets/images/new/1 (7).jpeg",
+    "sizes": ["6", "7", "8", "9"],
+    "category": "men"
+  }
+
+]

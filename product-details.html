@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details</title>
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+</head>
+<body style="background-image: url(/con.webp);" > 
+  <header>
+
+    <div class="header-top">
+
+      <div class="container">
+
+        <ul class="header-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/rd_rashmideep/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="header-alert-news">
+          <p>
+            <b>Free Shipping</b>
+            This Week Order Over - ₹999
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="index.html" class="header-logo">
+          <img src="/assets/images/logo/1.png" alt="rd logo" style="max-width: 30%; height: auto;">
+      </a>
+
+        <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="header-user-actions">
+
+          <button class="action-btn">
+            <ion-icon name="heart-outline"></ion-icon>
+            <!-- <span class="count">0</span> -->
+          </button>
+
+          <!-- Updated Cart Icon with link to cart.html -->
+          <a href="cart.html">
+            <button class="action-btn">
+              <ion-icon name="cart-outline"></ion-icon>
+              <span class="count" id="cart-count">0</span> <!-- Cart Count -->
+            </button>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  <div class="notification-toast" data-toast>
+    <button class="toast-close-btn" data-toast-close>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+    
+    <button class="dont-want-btn" data-dont-want>
+      <span class="small-btn-text">Don't want to see</span>
+    </button>
+  
+    <div class="toast-banner">
+      <img src="/post.jpeg" alt="Rose Gold Earrings" width="80" height="70">
+    </div>
+  
+    <div class="toast-detail">
+  
+      <p class="toast-message">
+        Someone in new just bought
+      </p>
+  
+      <p class="toast-title">
+        Men'wear
+      </p>
+  
+      <p class="toast-meta">
+        <time datetime="PT2M">3 Minutes</time> ago
+      </p>
+  
+    </div>
+  </div>
+  
+
+    
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+
+          <li class="menu-category">
+            <a href="index.html" class="menu-title">Home</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="/men/men.html" class="menu-title">Categories</a>
+
+            <div class="dropdown-panel">
+
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="mens.html">Men's</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="mens.html">Shirts</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="mens.html">Kurthas</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="mens.html">Sherwani</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="/men/men.html">Blazers</a>
+                </li>
+
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/mens-banner.jpg" alt="men's fashion" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="/index.html">Women's</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Lehangas</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Coord Sets</a>
+                </li>
+                
+                <li class="panel-list-item">
+                  <a href="#">Frocks</a>
+                </li>
+                
+                <li class="panel-list-item">
+                  <a href="#">Office Wear</a>
+                </li>
+
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/womens-banner.jpg" alt="women's fashion" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+
+
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <a href="/men/men.html" class="menu-title">Men's</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="mens.html">Shirt's</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="mens.html">Kurthas</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="mens.html">Sherwani</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="mens.html">Blazers</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="/women/women.html" class="menu-title">Women's</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Lehangas</a>
+              </li>
+              
+              <li class="dropdown-item">
+                <a href="#">Coord Sets</a>
+              </li>
+              
+              <li class="dropdown-item">
+                <a href="#">Frocks</a>
+              </li>
+              
+              <li class="dropdown-item">
+                <a href="#">Office Wear</a>
+              </li>
+
+
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="/contact/contact.html" class="menu-title">Services</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="/index.html" class="menu-title">Hot Offers</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+
+      <a href="cart.html">
+        <button class="action-btn">
+          <ion-icon name="cart-outline"></ion-icon>
+          <span class="count">0</span>
+ <!-- Cart Count -->
+        </button>
+      </a>
+
+
+      <button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="heart-outline"></ion-icon>
+
+        <!-- <span class="count">0</span> -->
+      </button>
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="grid-outline"></ion-icon>
+      </button>
+
+    </div>
+
+    <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="mobile-menu-category-list">
+
+        <li class="menu-category">
+          <a href="index.html" class="menu-title">Home</a>
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Men's</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Shirt</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Shorts & Jeans</a>
+            </li>
+
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Women's</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Dress & Frock</a>
+            </li>
+
+
+          </ul>
+
+        </li>
+
+
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Blog</a>
+        </li>
+
+        <li class="menu-category">
+          <a href="/index.html" class="menu-title">Hot Offers</a>
+        </li>
+
+      </ul>
+
+      <div class="menu-bottom">
+
+        <ul class="menu-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+    <!-- Back to home icon -->
+    <a href="index.html" class="home-icon">
+      <ion-icon name="home"></ion-icon>
+    </a>
+
+  <div id="product-details" class="product-details"></div>
+
+  <!-- Popup for adding to cart notification -->
+  <div id="add-to-cart-popup" class="add-to-cart-popup" style="display: none;">
+    <div class="popup-content">
+      <div class="checkmark-circle">
+        <div class="background"></div>
+        <div class="checkmark draw"></div>
+      </div>
+      <p>Item has been added to cart!</p>
+      <button onclick="window.location.href='cart.html'" class="my-cart-button">My Cart</button>
+    </div>
+  </div>
+
+  <script>
+    function fetchProductDetails() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const productId = urlParams.get('id');
+
+      fetch('./data/data.json')
+        .then(response => response.json())
+        .then(products => {
+          const product = products.find(p => p.id === parseInt(productId));
+          if (product) {
+            const sizeOptions = product.sizes.map(size => `<option value="${size}">${size}</option>`).join('');
+            document.getElementById('product-details').innerHTML = `
+              <h1>${product.name}</h1>
+              <div class="product-image" style="width: 50%; margin: auto;">
+                <img src="${product.image}" alt="${product.name}" style="width: 100%;">
+              </div>
+              <p>${product.description}</p>
+              <p>Size: <select id="size-select">${sizeOptions}</select></p>
+              <p>Price: ₹${product.price.toFixed(2)}</p>
+              <button class="my-cart-button" onclick="addToCart(${product.id})">Add to Cart</button>
+            `;
+          } else {
+            document.getElementById('product-details').innerHTML = `<p>Product not found.</p>`;
+          }
+        })
+        .catch(error => {
+          console.error('Failed to fetch products:', error);
+          document.getElementById('product-details').innerHTML = `<p>Error loading product details.</p>`;
+        });
+    }
+
+    function addToCart(productId) {
+  fetch('./data/data.json')
+    .then(response => response.json())
+    .then(products => {
+      const product = products.find(p => p.id === productId);
+      if (product) {
+        const size = document.getElementById('size-select').value;
+        const cartItem = {
+          id: product.id,
+          name: product.name,
+          price: product.price,
+          size: size,
+          image: product.image
+        };
+
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        cart.push(cartItem);
+        localStorage.setItem('cart', JSON.stringify(cart));
+        showAddToCartPopup();
+
+        // Redirect to the cart page after adding to cart
+        window.location.href = 'cart.html';
+      }
+    });
+}
+
+
+    function showAddToCartPopup() {
+      const popup = document.getElementById('add-to-cart-popup');
+      popup.style.display = 'flex';
+      setTimeout(() => {
+        popup.style.display = 'none';
+      }, 3000); // Popup disappears after 3 seconds
+    }
+
+    document.addEventListener("DOMContentLoaded", fetchProductDetails);
+  </script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!----whatapp pop up-->
+
+<div class="WA_Chat_Widget" data-position="bottom-right">
+  <div class="WA_ChatBox">
+      <div class="WA_ChatBox_Header">
+          <div class="avatarBox">
+              <img src="/assets/images/logo/1.png" alt="Chat Avatar">
+          </div>
+          <div class="infoBox">
+              <h4 class="name">RD DESIGNER STUDIO </h4>
+              <span class="answer_time"></span>
+          </div>
+          <button class="WA_Close" onclick="hideChatbox()"><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                  viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                      d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z" />
+              </svg></button>
+      </div>
+      <div class="WA_ChatBox_Body">
+          <div class="message">
+              <h4 class="username">RD DESIGNER STUDIO</h4>
+              <div class="message_content">
+                 <P> We customized all types of designs for men's and women's wear</P>
+                  <p>
+                      +91 8099981871</p>
+           
+              </div>
+          </div>
+      </div>
+      <div class="WA_ChatBox_Footer">
+          <a class="btn btn-whatsapp" href="https://wa.me/918099981871" target="_blank">Start Chat</a>
+        </div>
+        
+  </div>
+  <div class="WA_FloatingButton" onclick="toggleChatbox()">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="#4FCE5D" viewBox="0 0 90 90">
+          <path
+              d="M90 43.841c0 24.213-19.779 43.841-44.182 43.841a44.256 44.256 0 01-21.357-5.455L0 90l7.975-23.522a43.38 43.38 0 01-6.34-22.637C1.635 19.628 21.416 0 45.818 0 70.223 0 90 19.628 90 43.841zM45.818 6.982c-20.484 0-37.146 16.535-37.146 36.859 0 8.065 2.629 15.534 7.076 21.61L11.107 79.14l14.275-4.537A37.122 37.122 0 0045.819 80.7c20.481 0 37.146-16.533 37.146-36.857S66.301 6.982 45.818 6.982zm22.311 46.956c-.273-.447-.994-.717-2.076-1.254-1.084-.537-6.41-3.138-7.4-3.495-.993-.358-1.717-.538-2.438.537-.721 1.076-2.797 3.495-3.43 4.212-.632.719-1.263.809-2.347.271-1.082-.537-4.571-1.673-8.708-5.333-3.219-2.848-5.393-6.364-6.025-7.441-.631-1.075-.066-1.656.475-2.191.488-.482 1.084-1.255 1.625-1.882.543-.628.723-1.075 1.082-1.793.363-.717.182-1.344-.09-1.883-.27-.537-2.438-5.825-3.34-7.977-.902-2.15-1.803-1.792-2.436-1.792-.631 0-1.354-.09-2.076-.09s-1.896.269-2.889 1.344c-.992 1.076-3.789 3.676-3.789 8.963 0 5.288 3.879 10.397 4.422 11.113.541.716 7.49 11.92 18.5 16.223C58.2 65.771 58.2 64.336 60.186 64.156c1.984-.179 6.406-2.599 7.312-5.107.9-2.512.9-4.663.631-5.111z">
+          </path>
+      </svg>
+  </div>
+</div>
+<script>
+  let isChatboxVisible = false;
+  const chatbox = document.querySelector(".WA_Chat_Widget .WA_ChatBox");
+  function hideChatbox() {
+      isChatboxVisible = false;
+      chatbox.style.display = "none";
+  }
+  function toggleChatbox() {
+      isChatboxVisible = !isChatboxVisible;
+      chatbox.style.display = isChatboxVisible ? "block" : "none";
+  }
+</script>
+
+
+</body>
+</html>
